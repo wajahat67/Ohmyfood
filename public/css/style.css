@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -7,3 +6,157 @@ body {
   background-color: #f6f6f6;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  margin: 0;
+}
+
+h6 {
+  margin: 0;
+}
+
+h1, h6 {
+  font-family: Shrikhand, Roboto, sans-serif;
+}
+
+body, html {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 1.125rem;
+  margin : 0;
+}
+
+.about {
+  background: #f6f6f6;
+  text-align: center;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.about h2 {
+  font-weight: bold;
+}
+
+.about p {
+  color: #4d4d4d;
+}
+
+.maps {
+  background: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 5px 5px 0px #dddddd;
+}
+
+.maps__search input {
+  border: none;
+  background: #eaeaea;
+  font-size: 1rem;
+  padding: 20px 5px 20px 5px;
+  margin-top: 5px;
+  text-align: center;
+  width: 150px;
+}
+
+.btn__about button {
+  background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+  border: 1px solid transparent;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 4px 4px 6px #aaa;
+  cursor: pointer;
+}
+.btn__about button:hover {
+  background-color: #ae80e5;
+  background-blend-mode: lighten;
+  box-shadow: 4px 4px 6px #000;
+}
+
+.main__header h1 {
+  text-align: center;
+}
+
+
+span.btn__order {
+    background-color: #f6f6f6;
+}
+
+
+  
+  
+.operation {
+  margin-bottom: 50px;
+}
+.operation h2 {
+  padding: 20px;
+}
+
+  .operation h2 {
+    text-align: center;
+  }
+
+.operation__steps {
+  list-style-type: none;
+  padding: 0px;
+}
+
+  .operation__steps {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+.operation__steps li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 15px 20px;
+  margin: 15px 20px 15px 30px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 8px 2px #c4c4c4;
+  background-color: #f5f5f5;
+}
+
+.operation__steps li p {
+  font-weight: 500;
+  margin-left: 20px;
+}
+.operation__steps li:hover {
+  background: #f2eafb;
+}
+.operation__steps li:hover .fas {
+  color: #9356dc;
+}
+.operation__steps--number {
+  background-color: #9356dc;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 9px;
+  margin-left: -40px;
+}
+.operation__steps--icon {
+  color: grey;
+  font-size: 1.2rem;
+  margin-left: 20px;
+}
